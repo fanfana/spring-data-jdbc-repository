@@ -39,7 +39,7 @@ public abstract class JdbcRepository<T extends Persistable<ID>, ID extends Seria
 	public static Object[] pk(Object... idValues) {
 		return idValues;
 	}
-
+	int a=1;
 	private final TableDescription table;
 
 	private final RowMapper<T> rowMapper;
